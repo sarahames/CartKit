@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Story+Script&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+
+ background-color: #f5f2f2 !important;
+}
+/*footer styling */
+
+.footer{
+  background-color: #050505;
+}
+
+
+/* heading styling */
+.hcstm {
+  font-family: "Alan Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+}
+h2cstm{
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.sizecstmlgo{
+  font-size:xx-;
+  font-weight: bolder;
+  font-style: italic;
+}
+.product-img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      background: #fafafa;
+      border-radius: 10px;
+      padding: 20px;
+    }
+    .price {
+      color: #08925d;
+      font-weight: bold;
+      font-size: 2rem;
+    }
+    
+    .btn-cart:hover {
+      background-color: #76fe71;
+    }

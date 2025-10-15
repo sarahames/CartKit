@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CartKit</title>
+  <link rel="icon" type="image/png" href="./Assets1/favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <link href="index.css" rel="stylesheet">
+</head>
+<body>
+  <br>
+  <br>
+  <br>
+  <!-- navbar -->
+
+  <nav class="navbar navbar-expand-lg   bg-dark navbar-dark fixed-top" opacity-50>
+    <div class="container-fluid">
+      <img src="./Assets1/2025-10-09-removebg-preview.png" width="120px" height="70px">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li>
+            <a class="nav-link " aria-current="page" href="./products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="./about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact Us</a>
+          </li>
+          <form class="d-flex" role="search">
+            <input class="form-control me- g-3" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+<!-- caraousel -->
+
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="./Assets1/Cream and Brown Minimalist Fashion and Style Etsy Cover Shop (2).png"
+          background-blend-mode="darken" class="d-block w-100" alt="...">
+         </div>
+
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./Assets1/Untitled design (1).png" background-blend-mode="darken" class="d-block w-100" alt="...">
+        <div class="carousel-caption  d-md-block">
+          <h5 class="animated fadeInDown hcstm">Up to 50% Off</h5>
+          <p class="animated fadeInUp">Don't miss out on our incredible discounts. Limited time offer!</p>
+          <a href="products.html" class="btn btn-dark btn-lg animated fadeInUp">View Sale <i
+              class="fa-solid fa-arrow-right ms- g-3"></i></a>
+        </div>
+      </div>
+
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Availbe  categories -->
+
+
+   <h1 class="hcstm text-center ">Available Categories</h1>
+  <div class="row g-3 row justify-content-center gap-3 ">
+    <div class="row g-3 justify-content-center">
+  <!-- Jewellery -->
+<div class="col-12 col-sm-6 col-md-4 col-lg-3 justify-content-center">
+  <div class="card product-card border-0 position-relative overflow-hidden">
+    <img src="./Assets1/jewellcoll.jpg" class="card-img-top rounded-0" alt="Jewellery">
+    <div class="category-overlay">
+      <h6 class="product-title">Jewellery</h6>
+    </div>
+  </div>
+  <div class="text-center justify-content-center m-3">
+    <a href="#" class="btn btn-outline-warning">Explore More!</a>
+  </div>
+</div>
+
+<!-- Men Clothing -->
+<div class="col-12 col-sm-6 col-md-4 col-lg-3 justify-content-center">
+  <div class="card product-card border-0 position-relative overflow-hidden">
+    <img src="./Assets1/menscoll.jpg" class="card-img-top rounded-0" alt="Men Clothing">
+    <div class="category-overlay">
+      <h6 class="product-title">Men Clothing</h6>
+    </div>
+  </div>
+  <div class="text-center justify-content-center m-3">
+    <a href="#" class="btn btn-outline-warning">Explore More!</a>
+  </div>
+</div>
+
+<!-- Perfumes -->
+<div class="col-12 col-sm-6 col-md-4 col-lg-3 justify-content-center">
+  <div class="card product-card border-0 position-relative overflow-hidden">
+    <img src="./Assets1/perfumes.webp" class="card-img-top rounded-0" alt="Perfumes">
+    <div class="category-overlay">
+      <h6 class="product-title">Perfumes</h6>
+    </div>
+  </div>
+  <div class="text-center justify-content-center m-3">
+    <a href="#" class="btn btn-outline-warning">Explore More!</a>
+  </div>
+</div>
+
+<!-- Women's Collection -->
+<div class="col-12 col-sm-6 col-md-4 col-lg-3 justify-content-center">
+  <div class="card product-card border-0 position-relative overflow-hidden">
+    <img src="./Assets1/wmncoll.jpg" class="card-img-top rounded-0" alt="Women's Collection">
+    <div class="category-overlay">
+      <h6 class="product-title">Women's Collection</h6>
+    </div>
+  </div>
+  <div class="text-center justify-content-center m-3">
+    <a href="#" class="btn btn-outline-warning">Explore More!</a>
+  </div>
+</div>
+
+<!-- Kids Collection -->
+<div class="col-12 col-sm-6 col-md-4 col-lg-3 justify-content-center">
+  <div class="card product-card border-0 position-relative overflow-hidden">
+    <img src="./Assets1/kidscoll.jpg" class="card-img-top rounded-0" alt="Kids Collection">
+    <div class="category-overlay">
+      <h6 class="product-title">Kids Collection</h6>
+    </div>
+  </div>
+  <div class="text-center justify-content-center m-3">
+    <a href="#" class="btn btn-outline-warning">Explore More!</a>
+  </div>
+</div>
+
+<!-- Beauty Products -->
+<div class="col-12 col-sm-6 col-md-4 col-lg-3 justify-content-center">
+  <div class="card product-card border-0 position-relative overflow-hidden">
+    <img src="./Assets1/wmncoll.jpg" class="card-img-top rounded-0" alt="Beauty Products">
+    <div class="category-overlay">
+      <h6 class="product-title">Beauty Products</h6>
+    </div>
+  </div>
+  <div class="text-center justify-content-center m-3">
+    <a href="#" class="btn btn-outline-warning">Explore More!</a>
+  </div>
+</div>
+
+<!-- Men Shoes -->
+<div class="col-12 col-sm-6 col-md-4 col-lg-3 justify-content-center">
+  <div class="card product-card border-0 position-relative overflow-hidden">
+    <img src="./Assets1/menshoescll.webp" class="card-img-top rounded-0" alt="Men Shoes">
+    <div class="category-overlay">
+      <h6 class="product-title">Men Shoes</h6>
+    </div>
+  </div>
+  <div class="text-center justify-content-center m-3">
+    <a href="#" class="btn btn-outline-warning">Explore More!</a>
+  </div>
+</div>
+
+<!-- Women's Shoes -->
+<div class="col-12 col-sm-6 col-md-4 col-lg-3 justify-content-center">
+  <div class="card product-card border-0 position-relative overflow-hidden">
+    <img src="./Assets1/womenshoescll.jpg" class="card-img-top rounded-0" alt="Women's Shoes">
+    <div class="category-overlay">
+      <h6 class="product-title">Women's Shoes</h6>
+    </div>
+  </div>
+  <div class="text-center justify-content-center m-3">
+    <a href="#" class="btn btn-outline-warning">Explore More!</a>
+  </div>
+</div>
+</div>
+</div>
+
+<!-- Promo Banner -->
+  <div class="promo-banner justify-content-left p-4 m-0">
+    <div class="container-fluid">
+      <h2 class="fw-bold mb-3 justify-content-left">Find the best quality products from our shop!</h2>
+      <p class="lead mb-4 justify-content-left">
+        Don’t Miss Out on Exclusive Deals. Quality you love, prices you’ll adore.
+        Shop the latest trends and elevate your style with our exclusive collections.
+      </p>
+      <div class="text-center">
+        <a href="./products.html" class="btn btn-dark btn-lg">Shop Now</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- alert -->
+   <div class="alert alert-warning text-center" role="alert">
+    50% sale on all item. check them out before the sale ends!</div>
+
+  <!-- HIGHLY RATED Items -->
+  <h1 class="hcstm text-center">Highly Rated Items</h1>
+  <div class="row justify-content-center gap-3 mb-3">
+    <div class="card col-sm-4, col-md-4, col-lg-3   g-3 cardcstm   text-center " style="width: 18rem;"
+      height="20%">
+      <a><img src="./Assets1/white  goldring.avif" class="card-img-top  " alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-center">White Gold Ring</h5>
+
+        <a href="#" class="btn btn-warning text-center">Buy Now!</a>
+      </div>
+    </div>
+
+    <div class="card col-sm-4, col-md-4, col-lg-3  g-3 cardcstm   text-center"
+      style="width: 18rem;" height="20%">
+      <img src="./Assets1/leatherjack.webp" class="card-img-top img-fluid" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-center ">Leather Jacket</h5>
+
+        <a href="#" class="btn btn-warning text-center">Buy Now!</a>
+      </div>
+    </div>
+
+    <div class="card col-sm-4, col-md-4, col-lg-3  g-3  cardcstm   text-center"
+      style="width: 18rem;" height="20%">
+      <img src="./Assets1/perfume.webp" class="card-img-top img-fluid" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-center">Perfume</h5>
+
+        <a href="#" class="btn btn-warning text-center">Buy Now!</a>
+      </div>
+    </div>
+
+    <div class="card col-sm-4, col-md-4, col-lg-3 g-3 cardcstm  text-center" style="width: 18rem;"
+      height="20%">
+      <img src="./Assets1/wemensuit.webp" class="card-img-top img-fluid card-image-overlay" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-center">Blue 3 pcs suit</h5>
+        <a href="#" class="btn btn-warning text-center">Buy Now!</a>
+      </div>
+    </div>
+
+    <div class="card col-sm-4, col-md-4, col-lg-3  g-3 cardcstm  text-center" style="width: 18rem;"
+      height="20%">
+      <img src="./Assets1/kidscoll.jpg" class="card-img-top img-fluid card-image-overlay" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-center">Kids Collection</h5>
+
+        <a href="#" class="btn btn-warning text-center">Buy Now!</a>
+      </div>
+    </div>
+
+    <div class="card col-sm-4, col-md-4, col-lg-3  g-3 cardcstm   text-center" style="width: 18rem;"
+      height="20%">
+      <img src="./Assets1/lip.png" class="card-img-top img-fluid card-image-overlay" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-center">Beauty Products</h5>
+        <a href="#" class="btn btn-warning text-center">Buy Now!</a>
+      </div>
+    </div>
+
+    <div class="card col-sm-4, col-md-4, col-lg-3 g-3  cardcstm  text-center" style="width: 18rem;"
+      height="20%">
+      <img src="./Assets1/menshoescll.webp" class="card-img-top img-fluid card-image-overlay" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-center">Men Shoes</h5>
+
+        <a href="#" class="btn btn-warning text-center">Buy Now!</a>
+      </div>
+    </div>
+
+    <div class="card col-sm-4, col-md-4, col-lg-3 g-3 cardcstm  text-center" style="width: 18rem;"
+      height="20%">
+      <img src="./Assets1/womenshoescll.jpg" class="card-img-top img-fluid card-image-overlay" height="20px" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-center">Women's Shoes</h5>
+
+        <a href="#" class="btn btn-warning text-center">Buy Now!</a>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  <!-- Follow Us Banner -->
+
+  </div class="container-fluid container">
+  <img src="./Assets1/Add a heading.png" background-blend-mode="darken" class="d-block w-100 co " height="230px"
+    width="100%" alt="follows us banner.">
+  <div>
+    
+  <img src="./Assets1/aboutuslastbanner.png" class="d-block w-100 co" height="230px" alt="Follow us banner">   
+
+  <!-- Footer -->
+ <footer class="footercss p-0 m-0 bg-dark text-white">
+  <div class="container-fluid p-4">
+    <div class="row text-center text-md-start">
+      <div class="col-md-3 mb-3">
+        <h5 class="hcstm text-white">
+          <img src="./Assets1/favicon.png" height="70px" width="70px" alt="logo"> CartKit
+        </h5>
+        <p>
+          Buy from 
+          <a href="products.html" class="text-white-50 link-light text-decoration-none">CartKit</a> — exclusivity and elegance, delivered to your doorstep!
+        </p>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <h5 class="text-white">Contact Us</h5>
+        <a href="#" class="d-block text-white-50 link-light text-decoration-none">Box 564, Disneyland, USA</a>
+        <a href="tel:01456732970" class="d-block text-white-50 link-light text-decoration-none">01456732970</a>
+        <a href="mailto:cartkit@hotmail.com" class="d-block text-white-50 link-light text-decoration-none">cartkit@hotmail.com</a>
+      </div>
+
+      <div class="col-md-2 mb-3">
+        <h5 class="text-white">Quick Links</h5>
+        <a href="./products.html" class="d-block text-white-50 link-light text-decoration-none">Products</a>
+        <a href="./products.html" class="d-block text-white-50 link-light text-decoration-none">Categories</a>
+        <a href="./about.html" class="d-block text-white-50 link-light text-decoration-none">About Us</a>
+        <a href="./contact.html" class="d-block text-white-50 link-light text-decoration-none">Contact Us</a>
+      </div>
+
+      <div class="col-md-2 mb-3">
+        <h5 class="text-white">Categories</h5>
+        <a href="./products.html" class="d-block text-white-50 link-light text-decoration-none">Men's Collection</a>
+        <a href="./products.html" class="d-block text-white-50 link-light text-decoration-none">Women's Collection</a>
+        <a href="./products.html" class="d-block text-white-50 link-light text-decoration-none">Beauty Products</a>
+        <a href="./products.html" class="d-block text-white-50 link-light text-decoration-none">Perfumes</a>
+        <a href="./products.html" class="d-block text-white-50 link-light text-decoration-none">Jewellery</a>
+      </div>
+
+      <div class="col-md-2 mb-3">
+        <h5 class="text-white">Social Media</h5>
+        <div class="d-flex justify-content-center gap-4">
+          <a href="#" class="text-white fs-4"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-white  fs-4"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-white  fs-4"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="text-white fs-4"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom text-center bg-black text-secondary py-2">
+    <p class="m-0">© <span id="year"></span> CartKit. All rights reserved.</p>
+  </div>
+</footer>
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script
+</body>
+</html>
